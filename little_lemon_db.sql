@@ -241,7 +241,7 @@ CREATE TABLE `orders` (
 
 LOCK TABLES `orders` WRITE;
 /*!40000 ALTER TABLE `orders` DISABLE KEYS */;
-INSERT INTO `orders` VALUES (1,1,1,1,5011,2),(2,2,2,2,112,1),(3,3,3,3,123,3),(4,4,10,4,224,2),(5,5,12,5,455,1),(6,6,4,6,226,2);
+INSERT INTO `orders` VALUES (1,1,1,1,5011,2),(2,2,2,2,112,1),(3,3,3,3,123,3),(4,4,10,4,224,2),(6,6,4,6,226,2);
 /*!40000 ALTER TABLE `orders` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -286,4 +286,4 @@ SET character_set_client = @saved_cs_client;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-07-07 10:11:00
+-- Dump completed on 2023-07-07 16:06:25
